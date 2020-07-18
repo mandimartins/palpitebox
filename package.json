@@ -1,0 +1,20 @@
+{
+  "name": "palpitebox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "author": "Amanda Martins <mandi.martins00@gmail.com> (https://github.com/mandimartins)",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.4.4",
+    "next-react-svg": "^1.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0"
+  }
+}
