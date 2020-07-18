@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  --primary: #2a94f4;
+  --primary-light: #cce9ff;
+  --secondary: #ffbe55;
+  --warning: #ff5555;
+  --gray-light: #f2f2f2;
+  --dark-0: #353739;
+  --dark-1: #43474b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* 1rem == 10px*/
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ================== COMPONENTS=========== */
+.header {
+  background-color: var(--primary-light);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__logo {
+  width: 7rem;
+  height: 7rem;
+  margin: 1rem;
+  margin-left: 5rem;
+  cursor: pointer;
+}
+
+.navigation__container {
+  display: flex;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.navigation__item {
+  color: var(--dark-1);
+  font-size: 1.6rem;
+  margin-left: 5rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.menuIcon {
+  font-size: 2rem;
+  color: var(--gray-light);
+  display: none;
+}
+
+.navigation-mobile {
+  background-color: var(--gray-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.link-mobile {
+  color: var(--dark-1);
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.footer {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+/*============= HOME =============== */
+
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+.suggestion-section {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestion-section__btn {
+  background-color: var(--warning);
+  border: none;
+  padding: 2rem 3rem;
+  font-size: 2rem;
+  color: var(--gray-light);
+  cursor: pointer;
+}
+
+.suggestion-section__title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.suggestion-section__subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem 0;
+  font-weight: normal;
+}
+
+.speakerImage {
+  width: 50rem;
+  height: 50rem;
+}
+
+/*=================== MEDIA QUERY=========*/
+
+@media (max-width: 360px) {
+  .home {
+    flex-wrap: wrap;
+  }
+
+  .speakerImage {
+    order: 1;
+    display: block;
+    width: 15rem;
+    height: 15rem;
+    margin-top: 5rem;
+  }
+
+  .navigation-mobile {
+    display: flex;
+  }
+  .suggestion-section {
+    order: 2;
+    width: 90%;
+  }
+  .navigation__container {
+    display: none;
+  }
+  .menuIcon {
+    display: block;
+    margin-right: 5rem;
+    color: var(--dark-0);
+  }
+}
