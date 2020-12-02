@@ -13,12 +13,12 @@ Cliente pode avaliar uma empresa e ganhar cupom de desconto.
 
 ### Desktop
 <img src="/desktop.jpg" width="900">
-<br/>
-<br/>
 
 ### Mobile
-<img src="/mobile_validacao.jpg" width="200">
+<img src="/mobile.jpg" width="300">
+
+### Avaliação
+<img src="/mobile_validacao.jpg" width="300">
 
 ### Cupom
-
-<img src="/mobile_cupom.jpg" width="200">
+<img src="/mobile_cupom.jpg" width="300">
