@@ -1,6 +1,6 @@
 [![HitCount](http://hits.dwyl.com/mandimartins/palpitebox.svg)](http://hits.dwyl.com/mandimartins/palpitebox)
 
-# List App
+# Palpitebox
 
 Cliente pode avaliar uma empresa e ganhar cupom de desconto.
 
@@ -15,7 +15,7 @@ Cliente pode avaliar uma empresa e ganhar cupom de desconto.
 <img src="/desktop.jpg" width="900">
 
 ### Mobile
-<img src="/mobile.jpg" width="300">
+<img src="/mobile.jpg" width="300" >
 
 ### Avaliação
 <img src="/mobile_validacao.jpg" width="300">
