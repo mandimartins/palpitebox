@@ -10,6 +10,7 @@ function Header() {
 
   const toggleMenu = (e) => {
     setisMenuOpen((prevState) => !prevState);
+    console.log('funcionando')
     e.preventDefault();
   };
 
