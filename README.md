@@ -11,16 +11,9 @@ Cliente pode avaliar uma empresa e ganhar cupom de desconto.
 ### Built with
 [NextJs](https://nextjs.org/)
 
-<img src="/desktop.jpg">
+<img src="/desktop.jpg" width="900">
 <br/>
-
-<img src="/mobile.jpg">
 <br/>
+<img src="/mobile_validacao.jpg" width="300">
 
-<img src="/mobile_pesquisa.jpg">
-<br/>
-
-<img src="/mobile_validação.jpg">
-<br/>
-
-<img src="/mobile_cupom.jpg">
+<img src="/mobile_cupom.jpg" width="300">
